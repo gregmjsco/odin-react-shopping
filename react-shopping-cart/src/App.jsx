@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Header from "./components/Header/Header";
 
 const App = () => {
   const [heading, setHeading] = useState("Magnificent Monkeys");
@@ -9,6 +10,7 @@ const App = () => {
 
   return (
     <>
+      <Header />
       <button type="button" onClick={clickHandler}>
         Click Me
       </button>
