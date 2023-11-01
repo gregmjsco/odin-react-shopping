@@ -4,7 +4,46 @@
 header {
     display: flex;
     position: fixed;
+    width: 90dvw;
+    margin: 0 auto;
     background-color: var(--purple);
     color: var(--orange);
     justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.header__left {
+    display: flex;
+}
+
+.header__left__title {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.header__right {
+    display: flex;
+    gap: 1rem;
+}
+
+.header__right__link {
+    text-decoration: none;
+    color: var(--orange);
+    text-transform: uppercase;
+}
+
+.header__button__container {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn {
+    border: solid var(--orange) 1px;
+    background-color: var(--purple);
+    color: var(--orange);
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: inherit;
 }
