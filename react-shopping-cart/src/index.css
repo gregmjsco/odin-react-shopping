@@ -1,3 +1,6 @@
+@import url('./variables.css');
+
+
 /*! modern-normalize v2.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
 /*
@@ -277,4 +280,6 @@ summary {
 #root {
   width: 100dvw;
   height: 100dvh;
+  margin: 0 auto;
+  background-color: var(--background-grey);
 }

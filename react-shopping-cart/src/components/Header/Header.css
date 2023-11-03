@@ -5,7 +5,7 @@ header {
     display: flex;
     position: fixed;
     width: 90dvw;
-    margin: 0 auto;
+    margin: 1rem;
     background-color: var(--purple);
     color: var(--orange);
     justify-content: space-between;
@@ -15,15 +15,25 @@ header {
 
 .header__left {
     display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.header__left__logo {
+    color: orange;
+    width: 100px;
+    min-height: 100px;
 }
 
 .header__left__title {
     font-size: 1.5rem;
     text-transform: uppercase;
+    align-self: center;
 }
 
 .header__right {
     display: flex;
+    justify-content: center;
     gap: 1rem;
 }
 
@@ -36,6 +46,7 @@ header {
 .header__button__container {
     display: flex;
     gap: 1rem;
+    justify-content: flex-end;
 }
 
 .btn {
