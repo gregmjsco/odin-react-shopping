@@ -4,13 +4,14 @@
 header {
     display: flex;
     position: fixed;
-    width: 90dvw;
-    margin: 1rem;
+    width: 90%;
+    margin-inline: auto;
     background-color: var(--purple);
     color: var(--orange);
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
+    box-sizing: border-box;
 }
 
 .header__left {
@@ -20,7 +21,7 @@ header {
 }
 
 .header__left__logo {
-    color: orange;
+    fill: orange;
     width: 100px;
     min-height: 100px;
 }
@@ -47,6 +48,7 @@ header {
     display: flex;
     gap: 1rem;
     justify-content: flex-end;
+    margin-inline-end: 1rem;
 }
 
 .btn {
