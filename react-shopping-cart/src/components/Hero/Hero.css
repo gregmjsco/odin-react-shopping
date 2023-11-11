@@ -1,0 +1,13 @@
+@import url('../../variables.css');
+
+.hero {
+    border: 5px solid red;
+    height: 100vh;
+    background-image: url(../../../public/city.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+
