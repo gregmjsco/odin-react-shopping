@@ -273,6 +273,10 @@ summary {
 	display: list-item;
 }
 
+body {
+	margin: 0;
+	padding: 0;
+}
 
 #root {
   width: 100dvw;
@@ -280,3 +284,4 @@ summary {
   margin: 0 auto;
   background-color: var(--background-grey);
 }
+

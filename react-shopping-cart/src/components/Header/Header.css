@@ -3,9 +3,11 @@
 
 header {
     display: flex;
-    position: fixed;
+    position:fixed;
     width: 90%;
-    margin-inline: auto;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     background-color: var(--purple);
     color: var(--orange);
     justify-content: space-between;
