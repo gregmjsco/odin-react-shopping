@@ -7,6 +7,20 @@
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero__title {
+    color: var(--orange);
+    text-transform: uppercase;
+}
+
+.hero__description {
+    color: var(--orange);
 }
 
 
