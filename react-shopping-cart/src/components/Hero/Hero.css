@@ -3,7 +3,8 @@
 .hero {
     border: 5px solid red;
     height: 100vh;
-    background-image: url(../../../public/city.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),
+     url(../../../public/city.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -20,7 +21,8 @@
 }
 
 .hero__description {
-    color: var(--orange);
+    color: var(--orange);  
+    max-width: 65ch;
 }
 
 
