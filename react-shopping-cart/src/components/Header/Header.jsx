@@ -2,7 +2,7 @@ import './Header.css'
 
 function Header() {
     return (
-        <header>
+        <header className='header container'>
             <div className='header__left'>
                 <img className='header__left__logo' src="../../public/bxl-tux.svg" alt="header logo" />
                 <h1 className='header__left__title'>monogram</h1>

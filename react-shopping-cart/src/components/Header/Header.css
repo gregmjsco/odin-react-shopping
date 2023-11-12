@@ -1,4 +1,4 @@
-@import url('../../variables.css');
+@import url('../../../src/styles/variables.css');
 
 
 header {
@@ -24,8 +24,8 @@ header {
 
 .header__left__logo {
     fill: orange;
-    width: 100px;
-    min-height: 100px;
+    width: 50px;
+    min-height: 50px;
 }
 
 .header__left__title {

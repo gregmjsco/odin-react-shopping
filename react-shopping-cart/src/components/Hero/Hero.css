@@ -1,4 +1,4 @@
-@import url('../../variables.css');
+@import url('../../../src/styles/variables.css');
 
 .hero {
     border: 5px solid red;
