@@ -1,5 +1,6 @@
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
+import Shop from "./components/Shop/Shop";
 
 const App = () => {
   
@@ -7,6 +8,7 @@ const App = () => {
     <>
       <Header />
       <Hero />
+      <Shop />
     </>
   );
 };
