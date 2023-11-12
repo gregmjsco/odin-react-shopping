@@ -1,3 +1,21 @@
+/* 2xl */
+/* @media (max-width: 1536px){} */
+
+/* xl */
+/* @media (max-width: 1280px){} */
+
+/* lg */
+/* @media (max-width: 1024px){} */
+
+/* md */
+/* @media (max-width: 768px){} */
+
+/* sm */
+/* @media (max-width: 648px){} */
+
+/* sm */
+/* @media (max-width: 475px){} */
+
 .container {
     max-width: 1536px;
     margin-inline: auto;
