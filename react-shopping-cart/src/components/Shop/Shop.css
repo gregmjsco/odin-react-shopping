@@ -1,0 +1,13 @@
+@import url('../../../src/styles/variables.css');
+
+.shop__grid-container {
+    display: grid;
+}
+
+.shop__box {
+    background-color: var(--black);
+    color: var(--orange);
+    padding: 2rem;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+}
