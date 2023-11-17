@@ -285,3 +285,10 @@ body {
   background-color: var(--background-grey);
 }
 
+button {
+	border: none;
+	background: none;
+	cursor: pointer;
+	color: inherit;
+	font-family: inherit;
+}
