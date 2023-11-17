@@ -16,6 +16,14 @@
 /* sm */
 /* @media (max-width: 475px){} */
 
+.btn {
+    background-color: white;
+    color: black;
+    padding: 0.5em 1em;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
 .container {
     max-width: 1536px;
     margin-inline: auto;
