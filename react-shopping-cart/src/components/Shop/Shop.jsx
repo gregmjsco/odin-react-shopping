@@ -4,7 +4,7 @@ function Shop(){
     return (
         <section className="shop container">
             <div className="shop__grid-container">
-                <div className='shop__box'>
+                <div className='shop__box shop__box--0margin'>
                     <h2>Product 1</h2>
                     <p>This is the p for product 1</p>
                     <button>Button 1</button>

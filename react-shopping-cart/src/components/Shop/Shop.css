@@ -9,5 +9,19 @@
     color: var(--orange);
     padding: 2rem;
     border-radius: 6px;
-    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+ 
+.shop__box--0margin {
+    margin: 0;
+}
+
+.shop__box__title {
+    font-size: 1.125rem;
+}
+
+.shop__box__desciption {
+    margin-bottom: 2.5rem;
+    font-size: 0.75rem;
+    font-family: monospace;
 }
