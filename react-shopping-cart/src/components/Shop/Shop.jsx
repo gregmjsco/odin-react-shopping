@@ -2,7 +2,7 @@ import './Shop.css'
 
 function Shop(){
     return (
-        <section className="shop container">
+        <section className="shop__container">
             <div className="shop__grid-container">
                 <div className='shop__box shop__box--0margin'>
                     <h2 className='shop__box__title'>Product 1</h2>

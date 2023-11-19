@@ -1,7 +1,16 @@
 @import url('../../../src/styles/variables.css');
 
+.shop__container {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 3rem;
+}
+
 .shop__grid-container {
     display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
 }
 
 .shop__box {
@@ -13,7 +22,7 @@
 }
  
 .shop__box--0margin {
-    margin: 0;
+    
 }
 
 .shop__box__title {
@@ -29,3 +38,21 @@
 .shop__box__btn {
     font-size: 0.75rem;
 }
+
+/* 2xl */
+/* @media (max-width: 1536px){} */
+
+/* xl */
+/* @media (max-width: 1280px){} */
+
+/* lg */
+/* @media (max-width: 1024px){} */
+
+/* md */
+/* @media (max-width: 768px){} */
+
+/* sm */
+/* @media (max-width: 648px){} */
+
+/* sm */
+/* @media (max-width: 475px){} */
