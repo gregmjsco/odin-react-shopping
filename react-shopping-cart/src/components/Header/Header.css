@@ -44,7 +44,14 @@ header {
     text-decoration: none;
     color: var(--orange);
     text-transform: uppercase;
+    transition: all 5s ease-in;
 }
+
+.header__right__link:hover {
+    text-decoration: underline;
+    transform: translateY(5px);
+}
+
 
 .header__button__container {
     display: flex;
